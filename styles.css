@@ -4,7 +4,27 @@
 
 body {
   margin: 0;
-  font-family: 'calibri', sans-serif;
+  font-family: 'tahoma', sans-serif;
   text-align: center;
 }
 
+/* header
+==================== */
+header {
+  /* position: absolute; */
+  margin-top: 1em;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .5em;
+  background: blue
+}
